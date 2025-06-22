@@ -51,7 +51,7 @@ Respuesta a la pregunta 1: Se parece a una campana
 
 ::: {#respuesta-2 .callout-note}
 ```{r simula-normal}
-valores <- rnorm(3)
+valores <- rnorm(3, mean = 0, sd = 1)
 ```
 
 Aquí están los valores
